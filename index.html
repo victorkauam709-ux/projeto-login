@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                foto
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Faça login para acessar a sua conta no Guess The Word.</p>
+                <p>Faça login para acessar a sua conta do Guess The Word.</p><br>
                 <form action="login.php" method="post">
-                     
+                     <span class="material-symbols-outlined">alternate_email
+</span>
+                     <label for="iemail">Email:</label>
+                     <input type="email" name="email" id="iemail" required>
+                     <span class="material-symbols-outlined">
+key
+</span>
+                     <label for="isenha">Senha:</label>
+                     <input type="password" name="Senha" id="isenha" required>
+                     <label for="iacessar"></label><br><br>
+                     <input type="submit" value="Acessar Conta">
+                     <input type="reset" value="Limpar">
                 </form>
             </div>
         </section>
